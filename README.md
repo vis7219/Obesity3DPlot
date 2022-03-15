@@ -31,5 +31,4 @@ If the input excel sheet has 2 variant information, the output will be 2 graphs 
 If the input excel sheet has 3 or more variant information, the number of output graphs will be the toal number of pair combinations
   
   Ex. If No. of input variants = 4,
-  
       No. of graphs = 
