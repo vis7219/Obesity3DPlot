@@ -28,6 +28,7 @@ def normal_plot(df, variants, output_type, output):
     main_ax.set_title('2 -> Homozygous Effect Allele (HE) \n1 -> Heterozygous (HET) \n0 -> Homozygous Other Allele (HO)', loc = 'left', fontsize = 16)
 
     # Creating the legends for the subplot graphs
+    # These lines are not important as they are not visible in the graph. It is only for creating legends
     line1 = main_ax.plot(range(3), color = 'royalblue', alpha = 0.001, label = 'Case ' + str(variants[0]), marker = 'o', markersize = 15)
     line2 = main_ax.plot(range(3), color = 'mediumpurple', alpha = 0.001, label = 'Case ' + str(variants[1]), marker = 'o', markersize = 15)
     line3 = main_ax.plot(range(3), color = 'maroon', alpha = 0.001, label = 'Control ' + str(variants[0]), marker = 'o', markersize = 15)
